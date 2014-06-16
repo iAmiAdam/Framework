@@ -18,7 +18,7 @@ import info.adamjsmith.framework.Graphics;
 import info.adamjsmith.framework.Input;
 import info.adamjsmith.framework.Screen;
 
-public class AndroidGame extends Activity, implements Game{
+public class AndroidGame extends Activity implements Game{
 	AndroidFastRenderView renderView;
 	Graphics graphics;
 	Audio audio;
