@@ -12,5 +12,5 @@ public class Circle {
 	public boolean overlapCircles(Circle c1, Circle c2) {
 		float distance = c1.center.dist(c2.center);
 		return distance <= c1.radius + c2.radius;
-	}
+	}	
 }
